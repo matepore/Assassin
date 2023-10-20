@@ -1,0 +1,107 @@
+{
+  "${modID}:ExampleCard": {
+    "NAME": "Name",
+    "DESCRIPTION": "Description.",
+    "UPGRADE_DESCRIPTION": "This will automatically be used if the card is upgraded. Remove it if unneeded.",
+    "EXTENDED_DESCRIPTION": [
+      "You can put more text in here.",
+      "If you need to use it for stuff.",
+      "Blizzard is a good example for this."
+    ]
+  },
+  "${modID}:Hitman": {
+    "NAME": "Hitman",
+    "DESCRIPTION": "Deal !D! damage !M! times.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage !M! times."
+  },
+  "${modID}:BlackWidow": {
+    "NAME": "Black Widow",
+    "DESCRIPTION": "Gain !B! Block. NL Apply 1 *Assassin's *Mark. NL Apply 1 Weak.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Apply 1 *Assassin's *Mark. NL Apply 1 Weak."
+  },
+  "${modID}:AngelFighter": {
+    "NAME": "Angel Fighter",
+    "DESCRIPTION": "Deal !D! damage for every attack card on your hand.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage for every attack card on your hand."
+  },
+  "${modID}:AngelPriestess": {
+    "NAME": "Angel Priestess",
+    "DESCRIPTION": "Heal !M! life for every skill card on your hand.",
+    "UPGRADE_DESCRIPTION": "Heal !M! life for every skill card on your hand."
+  },
+  "${modID}:AntWarrior": {
+    "NAME": "Ant Warrior",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain !B! Block."
+  },
+  "${modID}:Beastman": {
+    "NAME": "Beastman",
+    "DESCRIPTION": "Deal !D! damage for every attack card on your hand.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage for every attack card on your hand."
+  },
+  "${modID}:BlueBug": {
+    "NAME": "Blue Bug",
+    "DESCRIPTION": "At the start of your turn if you have less than half of your hp, heal 3 life. NL Otherwise gain 3 Block.",
+    "UPGRADE_DESCRIPTION": "At the start of your turn if you have less than half of your hp, heal 3 life. NL Otherwise gain 3 Block."
+  },
+  "${modID}:CentaurFighter": {
+    "NAME": "Centaur Fighter",
+    "DESCRIPTION": "Deal !D! damage. NL Deal !M! damage to the rest of monsters.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Deal !M! damage to the rest of monsters."
+  },
+  "${modID}:CommanderArmstrong": {
+    "NAME": "Commander Armstrong",
+    "DESCRIPTION": "Deal !D! damage for every card on your draw pile. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Deal !D! damage for every card on your draw pile. NL Exhaust."
+  },
+  "${modID}:CthoolAcolyte": {
+    "NAME": "Cthool Acolyte",
+    "DESCRIPTION": "Exhaust a random card and gain !B! Block.",
+    "UPGRADE_DESCRIPTION": "Exhaust a random card and gain !B! Block."
+  },
+  "${modID}:DarkLord": {
+    "NAME": "Dark Lord",
+    "DESCRIPTION": "Deal !D! damage to all enemies. NL Apply !M! Poison.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to all enemies. NL Apply !M! Poison."
+  },
+  "${modID}:DemonBride": {
+    "NAME": "Demon Bride",
+    "DESCRIPTION": "All monsters lose 1 Strength. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "All monsters loose 1 Strength. NL Exhaust."
+  },
+  "${modID}:DemonGuard": {
+    "NAME": "Demon Guard",
+    "DESCRIPTION": "Gain !B! Block for every skill card in the hand. NL Lose 3 life.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block for every skill card in the hand. NL Lose 3 life."
+  },
+  "${modID}:DesertCat": {
+    "NAME": "Desert Cat",
+    "DESCRIPTION": "Remove all Block from the enemy. NL Apply !M! Weak.",
+    "UPGRADE_DESCRIPTION": "Remove all Block from the enemy. NL Apply !M! Weak."
+  },
+  "${modID}:DesertFighter": {
+    "NAME": "Desert Fighter",
+    "DESCRIPTION": "If the enemy has Block, deal 16 damage. NL Otherwise deal 8 damage.",
+    "UPGRADE_DESCRIPTION": "If the enemy has Block, deal 16 damage. NL Otherwise deal 8 damage."
+  },
+  "${modID}:DesertPriestess": {
+    "NAME": "Desert Priestess",
+    "DESCRIPTION": "Remove all Block from the enemy. NL Deal !D! damage.",
+    "UPGRADE_DESCRIPTION": "Remove all Block from the enemy. NL Deal !D! damage."
+  },
+  "${modID}:DinoWarrior": {
+    "NAME": "Dino Warrior",
+    "DESCRIPTION": "Deal !D! damage. NL Apply 3 Vulnerable to yourself.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Apply 3 Vulnerable to yourself."
+  },
+  "${modID}:ElderFairy": {
+    "NAME": "Elder Fairy",
+    "DESCRIPTION": "If the enemy doesn't have the intention to attack, gain 1 [E]. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "If the enemy doesn't have the intention to attack, gain 1 [E]."
+  },
+  "${modID}:ElfRecruit": {
+    "NAME": "Elf Recruit",
+    "DESCRIPTION": "Deal !D! damage. NL Deal !M! damage to the rest of monsters.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to all monsters."
+  }
+}

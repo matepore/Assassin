@@ -1,0 +1,17 @@
+{
+  "${modID}:RelicID": {
+    "NAME": "Good Relic",
+    "FLAVOR": "Flavor text displayed in detailed relic view.",
+    "DESCRIPTIONS": [
+      "Gain [E] at the start of your turn. [E] is an energy icon."
+    ]
+  },
+  "${modID}:AssassinBaseRelic": {
+    "NAME": "Assassin Instincts",
+    "FLAVOR": "I followed a tutorial!",
+    "DESCRIPTIONS": [
+      "Whenever an enemy suffers unblocked damage, they gain 1",
+      " *Assassin's *Mark."
+    ]
+  }
+}
