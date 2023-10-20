@@ -46,8 +46,8 @@
   },
   "${modID}:CentaurFighter": {
     "NAME": "Centaur Fighter",
-    "DESCRIPTION": "Deal !D! damage. NL Deal !M! damage to the rest of monsters.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Deal !M! damage to the rest of monsters."
+    "DESCRIPTION": "Deal !D! damage. NL Deal !M! damage to the rest of enemies.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Deal !M! damage to the rest of enemies."
   },
   "${modID}:CommanderArmstrong": {
     "NAME": "Commander Armstrong",
@@ -61,13 +61,13 @@
   },
   "${modID}:DarkLord": {
     "NAME": "Dark Lord",
-    "DESCRIPTION": "Deal !D! damage to all enemies. NL Apply !M! Poison.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage to all enemies. NL Apply !M! Poison."
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Apply !M! Poison.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies. NL Apply !M! Poison."
   },
   "${modID}:DemonBride": {
     "NAME": "Demon Bride",
-    "DESCRIPTION": "All monsters lose 1 Strength. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "All monsters loose 1 Strength. NL Exhaust."
+    "DESCRIPTION": "ALL enemies lose 1 Strength. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "ALL enemies loose 1 Strength. NL Exhaust."
   },
   "${modID}:DemonGuard": {
     "NAME": "Demon Guard",
@@ -76,8 +76,8 @@
   },
   "${modID}:DesertCat": {
     "NAME": "Desert Cat",
-    "DESCRIPTION": "Remove all Block from the enemy. NL Apply !M! Weak.",
-    "UPGRADE_DESCRIPTION": "Remove all Block from the enemy. NL Apply !M! Weak."
+    "DESCRIPTION": "Remove ALL Block from the enemy. NL Apply !M! Weak.",
+    "UPGRADE_DESCRIPTION": "Remove ALL Block from the enemy. NL Apply !M! Weak."
   },
   "${modID}:DesertFighter": {
     "NAME": "Desert Fighter",
@@ -86,8 +86,8 @@
   },
   "${modID}:DesertPriestess": {
     "NAME": "Desert Priestess",
-    "DESCRIPTION": "Remove all Block from the enemy. NL Deal !D! damage.",
-    "UPGRADE_DESCRIPTION": "Remove all Block from the enemy. NL Deal !D! damage."
+    "DESCRIPTION": "Remove ALL Block from the enemy. NL Deal !D! damage.",
+    "UPGRADE_DESCRIPTION": "Remove ALL Block from the enemy. NL Deal !D! damage."
   },
   "${modID}:DinoWarrior": {
     "NAME": "Dino Warrior",
@@ -101,7 +101,17 @@
   },
   "${modID}:ElfRecruit": {
     "NAME": "Elf Recruit",
-    "DESCRIPTION": "Deal !D! damage. NL Deal !M! damage to the rest of monsters.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage to all monsters."
+    "DESCRIPTION": "Deal !D! damage. NL Deal 9 damage to the rest of enemies. NL Apply a random debuff to yourself.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies. NL Apply a random debuff to yourself."
+  },
+  "${modID}:FairyQueen": {
+    "NAME": "Fairy Queen",
+    "DESCRIPTION": "Gain !M! Strength. NL Gain !${modID}:magicDex! Dexterity.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Strength. NL Gain !${modID}:magicDex! Dexterity."
+  },
+  "${modID}:FallenAngel": {
+    "NAME": "Fallen Angel",
+    "DESCRIPTION": "Deal !D! damage. NL Lose !M! life.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Lose !M! life."
   }
 }

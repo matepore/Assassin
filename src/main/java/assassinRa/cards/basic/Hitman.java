@@ -21,13 +21,12 @@ public class Hitman extends BaseCard {
     );
 
     private static final int DAMAGE = 3;
-    private static final int UPG_DAMAGE = 0;
     private static final int HIT_TIMES = 2;
     private static final int UPG_HIT_TIMES = 1;
 
     public Hitman() {
         super(ID, info);
-        setDamage(DAMAGE, UPG_DAMAGE);
+        setDamage(DAMAGE);
         setMagic(HIT_TIMES, UPG_HIT_TIMES);
     }
 
@@ -41,13 +40,5 @@ public class Hitman extends BaseCard {
     @Override
     public AbstractCard makeCopy() { //Optional
         return new Hitman();
-    }
-
-    @Override
-    public void upgrade() {
-        if (!this.upgraded) {
-            upgradeName();
-            upgradeMagicNumber(UPG_HIT_TIMES);
-        }
     }
 }

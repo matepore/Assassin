@@ -27,6 +27,7 @@ public class DemonBride extends BaseCard {
     public DemonBride() {
         super(ID, info);
         exhaust = true;
+        setCostUpgrade(UPG_COST);
     }
 
     @Override
@@ -39,13 +40,5 @@ public class DemonBride extends BaseCard {
     @Override
     public AbstractCard makeCopy() { //Optional
         return new assassinRa.cards.uncommon.DemonBride();
-    }
-
-    @Override
-    public void upgrade() {
-        if (!this.upgraded) {
-            upgradeName();
-            upgradeBaseCost(UPG_COST);
-        }
     }
 }

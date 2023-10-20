@@ -26,6 +26,7 @@ public class DesertFighter extends BaseCard {
 
     public DesertFighter() {
         super(ID, info);
+        setCostUpgrade(UPG_COST);
     }
 
     @Override
@@ -41,13 +42,5 @@ public class DesertFighter extends BaseCard {
     @Override
     public AbstractCard makeCopy() { //Optional
         return new assassinRa.cards.common.DesertFighter();
-    }
-
-    @Override
-    public void upgrade() {
-        if (!this.upgraded) {
-            upgradeName();
-            upgradeBaseCost(UPG_COST);
-        }
     }
 }

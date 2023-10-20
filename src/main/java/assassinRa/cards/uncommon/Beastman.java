@@ -41,12 +41,4 @@ public class Beastman extends BaseCard {
     public AbstractCard makeCopy() { //Optional
         return new assassinRa.cards.uncommon.Beastman();
     }
-
-    @Override
-    public void upgrade() {
-        if (!this.upgraded) {
-            upgradeName();
-            upgradeDamage(UPG_DAMAGE);
-        }
-    }
 }

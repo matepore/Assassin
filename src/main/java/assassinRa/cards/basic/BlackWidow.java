@@ -47,12 +47,4 @@ public class BlackWidow extends BaseCard {
     public AbstractCard makeCopy() { //Optional
         return new BlackWidow();
     }
-
-    @Override
-    public void upgrade() {
-        if (!this.upgraded) {
-            upgradeName();
-            upgradeBlock(UPG_BLOCK);
-        }
-    }
 }

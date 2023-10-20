@@ -14,7 +14,7 @@ public class BlueBug extends BaseCard {
     private static final CardStats info = new CardStats(
             AssassinCharacter.Enums.CARD_COLOR,
             CardType.POWER,
-            CardRarity.BASIC,
+            CardRarity.COMMON,
             CardTarget.SELF,
             2
     );
@@ -23,6 +23,7 @@ public class BlueBug extends BaseCard {
 
     public BlueBug() {
         super(ID, info);
+        setCostUpgrade(UPG_COST);
     }
 
     @Override
@@ -33,13 +34,5 @@ public class BlueBug extends BaseCard {
     @Override
     public AbstractCard makeCopy() { //Optional
         return new assassinRa.cards.common.BlueBug();
-    }
-
-    @Override
-    public void upgrade() {
-        if (!this.upgraded) {
-            upgradeName();
-            upgradeBaseCost(UPG_COST);
-        }
     }
 }

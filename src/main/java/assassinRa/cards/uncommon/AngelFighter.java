@@ -27,6 +27,7 @@ public class AngelFighter extends BaseCard {
     public AngelFighter() {
         super(ID, info);
         setDamage(DAMAGE, UPG_DAMAGE);
+        setCostUpgrade(UPG_COST);
     }
 
     @Override
@@ -41,13 +42,5 @@ public class AngelFighter extends BaseCard {
     @Override
     public AbstractCard makeCopy() { //Optional
         return new AngelFighter();
-    }
-
-    @Override
-    public void upgrade() {
-        if (!this.upgraded) {
-            upgradeName();
-            upgradeBaseCost(UPG_COST);
-        }
     }
 }

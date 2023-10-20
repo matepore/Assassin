@@ -46,13 +46,4 @@ public class DarkLord extends BaseCard {
     public AbstractCard makeCopy() { //Optional
         return new assassinRa.cards.rare.DarkLord();
     }
-
-    @Override
-    public void upgrade() {
-        if (!this.upgraded) {
-            upgradeName();
-            upgradeDamage(UPG_DAMAGE);
-            upgradeMagicNumber(UPG_POISON);
-        }
-    }
 }

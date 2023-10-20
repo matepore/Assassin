@@ -40,12 +40,4 @@ public class AngelPriestess extends BaseCard {
     public AbstractCard makeCopy() { //Optional
         return new assassinRa.cards.rare.AngelPriestess();
     }
-
-    @Override
-    public void upgrade() {
-        if (!this.upgraded) {
-            upgradeName();
-            upgradeMagicNumber(UPG_HEAL_QUANTITY);
-        }
-    }
 }

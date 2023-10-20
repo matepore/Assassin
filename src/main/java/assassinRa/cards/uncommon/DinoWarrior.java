@@ -41,12 +41,4 @@ public class DinoWarrior extends BaseCard {
     public AbstractCard makeCopy() { //Optional
         return new assassinRa.cards.uncommon.DinoWarrior();
     }
-
-    @Override
-    public void upgrade() {
-        if (!this.upgraded) {
-            upgradeName();
-            upgradeDamage(UPG_DAMAGE);
-        }
-    }
 }

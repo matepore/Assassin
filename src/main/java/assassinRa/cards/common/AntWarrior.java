@@ -42,13 +42,4 @@ public class AntWarrior extends BaseCard {
     public AbstractCard makeCopy() { //Optional
         return new assassinRa.cards.common.AntWarrior();
     }
-
-    @Override
-    public void upgrade() {
-        if (!this.upgraded) {
-            upgradeName();
-            upgradeBlock(UPG_BLOCK);
-            upgradeDamage(UPG_DAMAGE);
-        }
-    }
 }

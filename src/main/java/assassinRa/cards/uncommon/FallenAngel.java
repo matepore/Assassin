@@ -1,43 +1,44 @@
-package assassinRa.cards.common;
+package assassinRa.cards.uncommon;
 
 import assassinRa.cards.BaseCard;
 import assassinRa.character.AssassinCharacter;
 import assassinRa.util.CardStats;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
-import com.megacrit.cardcrawl.actions.common.RemoveAllBlockAction;
+import com.megacrit.cardcrawl.actions.common.LoseHPAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
-public class DesertPriestess extends BaseCard {
-    public static final String ID = makeID(assassinRa.cards.common.DesertPriestess.class.getSimpleName());
+public class FallenAngel extends BaseCard {
+    public static final String ID = makeID(assassinRa.cards.uncommon.FallenAngel.class.getSimpleName());
     private static final CardStats info = new CardStats(
             AssassinCharacter.Enums.CARD_COLOR,
             CardType.ATTACK,
-            CardRarity.COMMON,
+            CardRarity.UNCOMMON,
             CardTarget.ENEMY,
-            2
+            1
     );
 
-    private static final int DAMAGE = 5;
-    private static final int UPG_DAMAGE = 3;
+    private static final int DAMAGE = 13;
+    private static final int LIFE_LOSS = 3;
+    private static final int UPG_LIFE_LOSS = -1;
 
-    public DesertPriestess() {
+    public FallenAngel() {
         super(ID, info);
-        setDamage(DAMAGE, UPG_DAMAGE);
+        setDamage(DAMAGE);
+        setMagic(LIFE_LOSS, UPG_LIFE_LOSS);
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        flash();
-        addToBot(new RemoveAllBlockAction(m,p));
-        addToBot(new DamageAction(m, new DamageInfo(p, damage, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
+        addToBot(new DamageAction(m, new DamageInfo(p, damage, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.BLUNT_HEAVY));
+        addToBot(new LoseHPAction(p, p, magicNumber));
     }
 
     @Override
     public AbstractCard makeCopy() { //Optional
-        return new assassinRa.cards.common.DesertPriestess();
+        return new assassinRa.cards.uncommon.FallenAngel();
     }
 }

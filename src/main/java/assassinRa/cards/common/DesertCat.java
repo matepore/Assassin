@@ -39,12 +39,4 @@ public class DesertCat extends BaseCard {
     public AbstractCard makeCopy() { //Optional
         return new assassinRa.cards.common.DesertCat();
     }
-
-    @Override
-    public void upgrade() {
-        if (!this.upgraded) {
-            upgradeName();
-            upgradeMagicNumber(UPG_WEAK);
-        }
-    }
 }

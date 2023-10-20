@@ -22,7 +22,7 @@ public class ElderFairy extends BaseCard {
 
     public ElderFairy() {
         super(ID, info);
-        exhaust = true;
+        setExhaust(true, false);
     }
 
     @Override
@@ -35,13 +35,5 @@ public class ElderFairy extends BaseCard {
     @Override
     public AbstractCard makeCopy() { //Optional
         return new assassinRa.cards.rare.ElderFairy();
-    }
-
-    @Override
-    public void upgrade() {
-        if (!this.upgraded) {
-            upgradeName();
-            exhaust = false;
-        }
     }
 }

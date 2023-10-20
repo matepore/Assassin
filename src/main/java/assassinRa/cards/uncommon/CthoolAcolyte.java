@@ -37,12 +37,4 @@ public class CthoolAcolyte extends BaseCard {
     public AbstractCard makeCopy() { //Optional
         return new assassinRa.cards.uncommon.CthoolAcolyte();
     }
-
-    @Override
-    public void upgrade() {
-        if (!this.upgraded) {
-            upgradeName();
-            upgradeBlock(UPG_BLOCK);
-        }
-    }
 }

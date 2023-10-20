@@ -46,13 +46,4 @@ public class CentaurFighter extends BaseCard {
     public AbstractCard makeCopy() { //Optional
         return new assassinRa.cards.common.CentaurFighter();
     }
-
-    @Override
-    public void upgrade() {
-        if (!this.upgraded) {
-            upgradeName();
-            upgradeDamage(UPG_DAMAGE);
-            upgradeMagicNumber(UPG_ANOTHER_DAMAGE);
-        }
-    }
 }

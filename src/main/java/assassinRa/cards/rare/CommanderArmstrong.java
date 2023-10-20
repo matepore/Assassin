@@ -24,7 +24,7 @@ public class CommanderArmstrong extends BaseCard {
 
     public CommanderArmstrong() {
         super(ID, info);
-        baseInnate = false;
+        setInnate(false, true);
         setDamage(DAMAGE);
         exhaust = true;
     }
@@ -39,13 +39,5 @@ public class CommanderArmstrong extends BaseCard {
     @Override
     public AbstractCard makeCopy() { //Optional
         return new assassinRa.cards.rare.CommanderArmstrong();
-    }
-
-    @Override
-    public void upgrade() {
-        if (!this.upgraded) {
-            upgradeName();
-            upgInnate = true;
-        }
     }
 }
