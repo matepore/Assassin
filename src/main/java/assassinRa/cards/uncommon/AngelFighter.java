@@ -21,12 +21,11 @@ public class AngelFighter extends BaseCard {
     );
 
     private static final int DAMAGE = 4;
-    private static final int UPG_DAMAGE = 0;
     private static final int UPG_COST = 1;
 
     public AngelFighter() {
         super(ID, info);
-        setDamage(DAMAGE, UPG_DAMAGE);
+        setDamage(DAMAGE);
         setCostUpgrade(UPG_COST);
     }
 

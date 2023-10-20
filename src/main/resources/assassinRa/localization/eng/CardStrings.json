@@ -113,5 +113,15 @@
     "NAME": "Fallen Angel",
     "DESCRIPTION": "Deal !D! damage. NL Lose !M! life.",
     "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Lose !M! life."
+  },
+  "${modID}:Gorillatron": {
+    "NAME": "Gorillatron",
+    "DESCRIPTION": "If the enemy intends to attack, gain !B! Block. NL Otherwise deal !D! damage.",
+    "UPGRADE_DESCRIPTION": "If the enemy intends to attack, gain !B! Block. NL Otherwise deal !D! damage."
+  },
+  "${modID}:GuardianOfTheSigil": {
+    "NAME": "Guardian of the Sigil",
+    "DESCRIPTION": "Refill your energy only if you have no cards on the draw or discard pile. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Refill your energy only if you have no cards on the draw or discard pile. NL Exhaust."
   }
 }
