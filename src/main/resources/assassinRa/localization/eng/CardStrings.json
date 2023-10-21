@@ -123,5 +123,40 @@
     "NAME": "Guardian of the Sigil",
     "DESCRIPTION": "Refill your energy only if you have no cards on the draw or discard pile. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Refill your energy only if you have no cards on the draw or discard pile. NL Exhaust."
+  },
+  "${modID}:HammerOfFate": {
+    "NAME": "Hammer of Fate",
+    "DESCRIPTION": "Ethereal. NL Deal !D! damage. NL If the enemy dies, gain !M! Strength and !${modID}:magicDex! Dexterity.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL If the enemy dies, gain !M! Strength and !${modID}:magicDex! Dexterity."
+  },
+  "${modID}:IronArm": {
+    "NAME": "Iron Arm",
+    "DESCRIPTION": "If this is the only Attack card in your hand, deal !M! damage. Otherwise deal !D! damage.",
+    "UPGRADE_DESCRIPTION": "If this is the only Attack card in your hand, deal !M! damage. Otherwise deal !D! damage."
+  },
+  "${modID}:LadyOfTheDarkSouls": {
+    "NAME": "Lady of the Dark Souls",
+    "DESCRIPTION": "Deal !D! damage to all enemies per card played this turn.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to all enemies per card played this turn."
+  },
+  "${modID}:LionFighter": {
+    "NAME": "Lion Fighter",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain !B! Block."
+  },
+  "${modID}:LivingArmor": {
+    "NAME": "Living Armor",
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! Thorns.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Gain !M! Thorns."
+  },
+  "${modID}:Lullyp": {
+    "NAME": "Lullyp",
+    "DESCRIPTION": "Deal !D! damage and gain !B! for every card on your hand.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage and gain !B! for every card on your hand."
+  },
+  "${modID}:MageThief": {
+    "NAME": "Mage Thief",
+    "DESCRIPTION": "Steal !M! Gold X times. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Steal !M! Gold X times. NL Exhaust."
   }
 }
