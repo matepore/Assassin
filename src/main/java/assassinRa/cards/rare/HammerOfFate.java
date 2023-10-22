@@ -1,10 +1,12 @@
 package assassinRa.cards.rare;
 
+import assassinRa.actions.HammerOfFateAction;
 import assassinRa.cards.BaseCard;
 import assassinRa.character.AssassinCharacter;
 import assassinRa.util.CardStats;
 import com.megacrit.cardcrawl.actions.animations.VFXAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.defect.SunderAction;
 import com.megacrit.cardcrawl.actions.utility.WaitAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
@@ -38,17 +40,12 @@ public class HammerOfFate extends BaseCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        //El codigo fue robado de la carta Sunder del juego original. Por alguna razon el DamageAction estaba causandome problemas.
-        if(m != null){
-            this.addToBot(new VFXAction(new WeightyImpactEffect(m.hb.cX, m.hb.cY)));
-            this.addToBot(new WaitAction(0.8F));
-            m.damage(new DamageInfo(p, damage, DamageInfo.DamageType.NORMAL));
-
-            if(m.isDying || m.currentHealth <= 0){
-                addToBot(new ApplyPowerAction(p, p, new StrengthPower(p, magicNumber)));
-                addToBot(new ApplyPowerAction(p,p, new DexterityPower(p,customVar("magicDex"))));
-            }
+        if (m != null) {
+            addToBot(new VFXAction(new WeightyImpactEffect(m.hb.cX, m.hb.cY)));
+            addToBot(new WaitAction(0.8F));
         }
+
+        addToBot(new HammerOfFateAction(p, m, new DamageInfo(p, damage, damageTypeForTurn), magicNumber, customVar("magicDex")));
     }
 
     @Override

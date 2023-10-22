@@ -158,5 +158,35 @@
     "NAME": "Mage Thief",
     "DESCRIPTION": "Steal !M! Gold X times. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Innate. NL Steal !M! Gold X times. NL Exhaust."
+  },
+  "${modID}:Nephil": {
+    "NAME": "Nephil",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL If you have less than half hp, heal !M! life. Otherwise lose !${modID}:hpLoss! life.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies. NL If you have less than half hp, heal !M! life."
+  },
+  "${modID}:PoisonCat": {
+    "NAME": "Poison Cat",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Poison.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Apply !M! Poison."
+  },
+  "${modID}:PoisonDino": {
+    "NAME": "Poison Dino",
+    "DESCRIPTION": "Apply !M! Poison. NL Deal damage equal to the amount of Poison the enemy has. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Apply !M! Poison. NL Deal damage equal to the amount of Poison the enemy has. NL Exhaust."
+  },
+  "${modID}:PoisonImp": {
+    "NAME": "Poison Imp",
+    "DESCRIPTION": "Deal !D! damage X times. NL Apply !M! Poison X times.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage X times. NL Apply !M! Poison X times."
+  },
+  "${modID}:PredatorForm": {
+    "NAME": "Predator Form",
+    "DESCRIPTION": "Gain !M! Thorns. NL Every time you deal damage apply 3 Poison.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Thorns. NL Every time you deal damage apply 3 Poison."
+  },
+  "${modID}:PriestHealer": {
+    "NAME": "Priest Healer",
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy dies, heal !M! life.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL If the enemy dies, heal !M! life."
   }
 }
