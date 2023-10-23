@@ -188,5 +188,35 @@
     "NAME": "Priest Healer",
     "DESCRIPTION": "Deal !D! damage. NL If the enemy dies, heal !M! life.",
     "UPGRADE_DESCRIPTION": "Deal !D! damage. NL If the enemy dies, heal !M! life."
+  },
+  "${modID}:RoboHound": {
+    "NAME": "Robo Hound",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain !B! Block. NL Exhaust."
+  },
+  "${modID}:Robowitch": {
+    "NAME": "Robowitch",
+    "DESCRIPTION": "At the end of your turn, gain !M! Block.",
+    "UPGRADE_DESCRIPTION": "At the end of your turn, gain !M! Block."
+  },
+  "${modID}:SapphireGuard": {
+    "NAME": "Sapphire Guard",
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! [E].",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Gain !M! [E]."
+  },
+  "${modID}:SeekerOfTheLight": {
+    "NAME": "Seeker of the Light",
+    "DESCRIPTION": "Remove all your debuffs. NL Heal !M! Life for every stack of debuffs removed. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Remove all your debuffs. NL Heal !M! Life for every stack of debuffs removed. NL Exhaust."
+  },
+  "${modID}:Sentinel": {
+    "NAME": "Sentinel",
+    "DESCRIPTION": "Add a *Robo *Hound to your discard pile for every card on your exhaust pile. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Add a *Robo *Hound to your discard pile for every card on your exhaust pile. NL Exhaust."
+  },
+  "${modID}:SigilEssence": {
+    "NAME": "Sigil Essence",
+    "DESCRIPTION": "Ethereal. NL Gain !M! Intangible. NL Gain !${modID}:magicDex! Dexterity.",
+    "UPGRADE_DESCRIPTION": "Ethereal. NL Gain !M! Intangible. NL Gain !${modID}:magicDex! Dexterity."
   }
 }
