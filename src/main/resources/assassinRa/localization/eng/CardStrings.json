@@ -218,5 +218,25 @@
     "NAME": "Sigil Essence",
     "DESCRIPTION": "Ethereal. NL Gain !M! Intangible. NL Gain !${modID}:magicDex! Dexterity.",
     "UPGRADE_DESCRIPTION": "Ethereal. NL Gain !M! Intangible. NL Gain !${modID}:magicDex! Dexterity."
+  },
+  "${modID}:SpaceCommander": {
+    "NAME": "Space Commander",
+    "DESCRIPTION": "If you have less than 50% of your health, gain !M! Buffer. Otherwise gain !${modID}:magicMet! Metallicize.",
+    "UPGRADE_DESCRIPTION": "Innate. NL If you have less than 50% of your health, gain !M! Buffer. Otherwise gain !${modID}:magicMet! Metallicize."
+  },
+  "${modID}:SpheresOfDuplication": {
+    "NAME": "Spheres of Duplication",
+    "DESCRIPTION": "Choose a card from your discard pile, add copies of that card X times. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Choose a card from your discard pile, add copies of that card X+!M! times. NL Exhaust."
+  },
+  "${modID}:SpiderQueen": {
+    "NAME": "Spider Queen",
+    "DESCRIPTION": "Apply !M! Poison.",
+    "UPGRADE_DESCRIPTION": "Apply !M! Poison to all enemies."
+  },
+  "${modID}:Succubus": {
+    "NAME": "Succubus",
+    "DESCRIPTION": "Apply !M! Poison to all enemies. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Apply !M! Poison to all enemies. NL Exhaust."
   }
 }

@@ -17,7 +17,7 @@ public class SeekerOfTheLightAction extends AbstractGameAction {
 
     @Override
     public void update() {
-        if (target == null){
+        if (this.target == null){
             this.isDone = true;
             return;
         }
