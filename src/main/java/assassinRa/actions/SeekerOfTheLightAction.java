@@ -17,29 +17,29 @@ public class SeekerOfTheLightAction extends AbstractGameAction {
 
     @Override
     public void update() {
-        if (this.target == null){
+        if (target == null){
             this.isDone = true;
             return;
         }
 
         int stackAmount = 0;
 
-        for(int i = 0; i < this.target.powers.size(); i++){
-            if(this.target.powers.get(i).type == AbstractPower.PowerType.DEBUFF){
-                stackAmount += this.target.powers.get(i).amount;
+        for(int i = 0; i < target.powers.size(); i++){
+            if(target.powers.get(i).type == AbstractPower.PowerType.DEBUFF){
+                stackAmount += target.powers.get(i).amount;
             }
         }
-        for(int j = 0; j < this.target.powers.size(); j++){
-            if(this.target.powers.get(j).type == AbstractPower.PowerType.DEBUFF){
-                addToBot(new RemoveSpecificPowerAction(this.target, this.target, this.target.powers.get(j).ID));
+        for(int j = 0; j < target.powers.size(); j++){
+            if(target.powers.get(j).type == AbstractPower.PowerType.DEBUFF){
+                addToBot(new RemoveSpecificPowerAction(target, target, target.powers.get(j).ID));
             }
         }
 
         if(stackAmount > 0){
-            addToBot(new HealAction(this.target, this.target, (this.healAmount * stackAmount)));
+            addToBot(new HealAction(target, target, (healAmount * stackAmount)));
         }
         else{
-            addToBot(new HealAction(this.target, this.target, this.healAmount));
+            addToBot(new HealAction(target, target, healAmount));
         }
         this.isDone = true;
     }

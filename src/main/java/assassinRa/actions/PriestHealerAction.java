@@ -23,11 +23,11 @@ public class PriestHealerAction extends AbstractGameAction {
 
     @Override
     public void update() {
-        if (this.target != null) {
-            AbstractDungeon.effectList.add(new FlashAtkImgEffect(this.target.hb.cX, this.target.hb.cY, AttackEffect.SLASH_HEAVY));
-            this.target.damage(info);
-            if (((AbstractMonster)this.target).isDying || this.target.currentHealth <= 0) {
-                addToBot(new HealAction(this.source, this.source, this.healAmount));
+        if (target != null) {
+            AbstractDungeon.effectList.add(new FlashAtkImgEffect(target.hb.cX, target.hb.cY, AttackEffect.SLASH_HEAVY));
+            target.damage(info);
+            if (((AbstractMonster)target).isDying || target.currentHealth <= 0) {
+                addToBot(new HealAction(source, source, healAmount));
             }
 
             if (AbstractDungeon.getCurrRoom().monsters.areMonstersBasicallyDead()) {

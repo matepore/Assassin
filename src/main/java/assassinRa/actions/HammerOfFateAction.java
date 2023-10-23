@@ -27,12 +27,12 @@ public class HammerOfFateAction extends AbstractGameAction {
 
     @Override
     public void update() {
-        if (this.target != null) {
-            AbstractDungeon.effectList.add(new FlashAtkImgEffect(this.target.hb.cX, this.target.hb.cY, AttackEffect.BLUNT_HEAVY));
-            this.target.damage(info);
-            if (((AbstractMonster)this.target).isDying || this.target.currentHealth <= 0) {
-                addToBot(new ApplyPowerAction(this.source, this.source, new StrengthPower(this.source, this.strAmount)));
-                addToBot(new ApplyPowerAction(this.source, this.source, new DexterityPower(this.source, this.dexAmount)));
+        if (target != null) {
+            AbstractDungeon.effectList.add(new FlashAtkImgEffect(target.hb.cX, target.hb.cY, AttackEffect.BLUNT_HEAVY));
+            target.damage(info);
+            if (((AbstractMonster)target).isDying || target.currentHealth <= 0) {
+                addToBot(new ApplyPowerAction(source, source, new StrengthPower(source, strAmount)));
+                addToBot(new ApplyPowerAction(source, source, new DexterityPower(source, dexAmount)));
             }
 
             if (AbstractDungeon.getCurrRoom().monsters.areMonstersBasicallyDead()) {

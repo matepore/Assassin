@@ -12,23 +12,22 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 
 public class DuplicateCardAction extends AbstractGameAction {
     private AbstractPlayer player;
-    private int amount;
+    private int copiesAmount;
     private CardGroup fromGroup;
     private CardGroup toGroup;
 
-    public DuplicateCardAction(AbstractPlayer player, int amount, CardGroup fromGroup, CardGroup toGroup) {
+    public DuplicateCardAction(AbstractPlayer player, int copiesAmount, CardGroup fromGroup, CardGroup toGroup) {
         this.player = player;
         this.actionType = ActionType.CARD_MANIPULATION; // Adjust the action type as needed
         this.duration = Settings.ACTION_DUR_XFAST;
-        this.amount = amount;
+        this.copiesAmount = copiesAmount;
         this.fromGroup = fromGroup;
         this.toGroup = toGroup;
     }
 
     @Override
     public void update() {
-        if (this.duration == Settings.ACTION_DUR_XFAST) {
-            CardGroup discardPile = this.player.discardPile;
+        if (duration == Settings.ACTION_DUR_XFAST) {
             if (!fromGroup.isEmpty()) {
                 // Open the card selection screen
                 AbstractDungeon.gridSelectScreen.open(fromGroup, 1, "Select a card to duplicate.", false);
@@ -41,13 +40,13 @@ public class DuplicateCardAction extends AbstractGameAction {
                 // Duplicate the selected card
                 AbstractCard selectedCard = AbstractDungeon.gridSelectScreen.selectedCards.get(0).makeStatEquivalentCopy();
                 if(toGroup.type == CardGroup.CardGroupType.DRAW_PILE){
-                    addToTop(new MakeTempCardInDrawPileAction(selectedCard, this.amount, true, true));
+                    addToTop(new MakeTempCardInDrawPileAction(selectedCard, copiesAmount, true, true));
                 }
                 else if(toGroup.type == CardGroup.CardGroupType.DISCARD_PILE){
-                    addToTop(new MakeTempCardInDiscardAction(selectedCard, this.amount));
+                    addToTop(new MakeTempCardInDiscardAction(selectedCard, copiesAmount));
                 }
                 else if(toGroup.type == CardGroup.CardGroupType.HAND){
-                    addToTop(new MakeTempCardInHandAction(selectedCard, this.amount));
+                    addToTop(new MakeTempCardInHandAction(selectedCard, copiesAmount));
                 }
 
                 // Reset the grid select screen

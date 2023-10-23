@@ -238,5 +238,20 @@
     "NAME": "Succubus",
     "DESCRIPTION": "Apply !M! Poison to all enemies. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Apply !M! Poison to all enemies. NL Exhaust."
+  },
+  "${modID}:ThornMonk": {
+    "NAME": "Thorn Monk",
+    "DESCRIPTION": "Gain !M! Thorns. NL Deal damage equal to the of your Thorns stack amount.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Thorns. NL Deal damage equal to the of your Thorns stack amount."
+  },
+  "${modID}:TurquoiseGuard": {
+    "NAME": "Turquoise Guard",
+    "DESCRIPTION": "Gain !B! Block. NL If the enemy has Poison, deal !D! damage.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL If the enemy has Poison, deal !D! damage."
+  },
+  "${modID}:V01B01": {
+    "NAME": "V01-B01",
+    "DESCRIPTION": "Gain !B! Block. NL When drawn gain !M! [E]. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL When drawn gain !M! [E]. NL Exhaust."
   }
 }
