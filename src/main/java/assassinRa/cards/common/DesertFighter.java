@@ -27,15 +27,17 @@ public class DesertFighter extends BaseCard {
     public DesertFighter() {
         super(ID, info);
         setCostUpgrade(UPG_COST);
+        setDamage(DAMAGE);
+        setCustomVar("magicDamage", BLOCK_DAMAGE);
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         if(m.currentBlock > 0){
-            addToBot(new DamageAction(m, new DamageInfo(p, BLOCK_DAMAGE, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.BLUNT_HEAVY));
+            addToBot(new DamageAction(m, new DamageInfo(p, customVar("magicDamage"), DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.BLUNT_HEAVY));
         }
         else{
-            addToBot(new DamageAction(m, new DamageInfo(p, DAMAGE, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.BLUNT_LIGHT));
+            addToBot(new DamageAction(m, new DamageInfo(p, damage, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.BLUNT_LIGHT));
         }
     }
 

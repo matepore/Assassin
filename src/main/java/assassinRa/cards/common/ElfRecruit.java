@@ -36,6 +36,7 @@ public class ElfRecruit extends BaseCard {
     public ElfRecruit() {
         super(ID, info);
         setDamage(DAMAGE, UPG_DAMAGE);
+        setMagic(ANOTHER_DAMAGE);
     }
 
     @Override
@@ -43,7 +44,7 @@ public class ElfRecruit extends BaseCard {
         addToBot(new DamageAction(m, new DamageInfo(p, damage, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SLASH_VERTICAL));
         for (AbstractMonster monster : AbstractDungeon.getMonsters().monsters) {
             if (!monster.isDeadOrEscaped() && monster != m) {
-                addToBot(new DamageAction(monster, new DamageInfo(p, ANOTHER_DAMAGE, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
+                addToBot(new DamageAction(monster, new DamageInfo(p, magicNumber, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
             }
         }
         int randomNum = rand.nextInt(3);

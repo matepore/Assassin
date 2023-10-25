@@ -16,8 +16,8 @@
   },
   "${modID}:BlackWidow": {
     "NAME": "Black Widow",
-    "DESCRIPTION": "Gain !B! Block. NL Apply 1 *Assassin's *Mark. NL Apply 1 Weak.",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Apply 1 *Assassin's *Mark. NL Apply 1 Weak."
+    "DESCRIPTION": "Apply !M! *Assassin's *Mark. NL Gain !B! Block and apply !${modID}:magicWeak! Weak for every *Assassin's *Mark stack.",
+    "UPGRADE_DESCRIPTION": "Apply !M! *Assassin's *Mark. NL Gain !B! Block and apply !${modID}:magicWeak! Weak for every *Assassin's *Mark stack."
   },
   "${modID}:AngelFighter": {
     "NAME": "Angel Fighter",
@@ -67,7 +67,7 @@
   "${modID}:DemonBride": {
     "NAME": "Demon Bride",
     "DESCRIPTION": "ALL enemies lose 1 Strength. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "ALL enemies loose 1 Strength. NL Exhaust."
+    "UPGRADE_DESCRIPTION": "ALL enemies lose 1 Strength. NL Exhaust."
   },
   "${modID}:DemonGuard": {
     "NAME": "Demon Guard",
@@ -81,8 +81,8 @@
   },
   "${modID}:DesertFighter": {
     "NAME": "Desert Fighter",
-    "DESCRIPTION": "If the enemy has Block, deal 16 damage. NL Otherwise deal 8 damage.",
-    "UPGRADE_DESCRIPTION": "If the enemy has Block, deal 16 damage. NL Otherwise deal 8 damage."
+    "DESCRIPTION": "If the enemy has Block, deal !${modID}:magicDamage! damage. NL Otherwise deal !D! damage.",
+    "UPGRADE_DESCRIPTION": "If the enemy has Block, deal !${modID}:magicDamage! damage. NL Otherwise deal !D! damage."
   },
   "${modID}:DesertPriestess": {
     "NAME": "Desert Priestess",
@@ -91,17 +91,17 @@
   },
   "${modID}:DinoWarrior": {
     "NAME": "Dino Warrior",
-    "DESCRIPTION": "Deal !D! damage. NL Apply 3 Vulnerable to yourself.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Apply 3 Vulnerable to yourself."
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable to yourself.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable to yourself."
   },
   "${modID}:ElderFairy": {
     "NAME": "Elder Fairy",
-    "DESCRIPTION": "If the enemy doesn't have the intention to attack, gain 1 [E]. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "If the enemy doesn't have the intention to attack, gain 1 [E]."
+    "DESCRIPTION": "If the enemy doesn't have the intention to attack, gain !M! [E]. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "If the enemy doesn't have the intention to attack, gain !M! [E]."
   },
   "${modID}:ElfRecruit": {
     "NAME": "Elf Recruit",
-    "DESCRIPTION": "Deal !D! damage. NL Deal 9 damage to the rest of enemies. NL Apply a random debuff to yourself.",
+    "DESCRIPTION": "Deal !D! damage. NL Deal !M! damage to the rest of enemies. NL Apply a random debuff to yourself.",
     "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies. NL Apply a random debuff to yourself."
   },
   "${modID}:FairyQueen": {
@@ -122,7 +122,7 @@
   "${modID}:GuardianOfTheSigil": {
     "NAME": "Guardian of the Sigil",
     "DESCRIPTION": "Refill your energy only if you have no cards on the draw or discard pile. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Refill your energy only if you have no cards on the draw or discard pile. NL Exhaust."
+    "UPGRADE_DESCRIPTION": "Refill your energy only if you have no cards on the draw or discard pile."
   },
   "${modID}:HammerOfFate": {
     "NAME": "Hammer of Fate",
@@ -136,8 +136,8 @@
   },
   "${modID}:LadyOfTheDarkSouls": {
     "NAME": "Lady of the Dark Souls",
-    "DESCRIPTION": "Deal !D! damage to all enemies per card played this turn.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage to all enemies per card played this turn."
+    "DESCRIPTION": "Deal !D! damage to all enemies for every card played this turn.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to all enemies for every card played this turn."
   },
   "${modID}:LionFighter": {
     "NAME": "Lion Fighter",
@@ -151,8 +151,8 @@
   },
   "${modID}:Lullyp": {
     "NAME": "Lullyp",
-    "DESCRIPTION": "Deal !D! damage and gain !B! for every card on your hand.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage and gain !B! for every card on your hand."
+    "DESCRIPTION": "Deal !D! damage and gain !B! Block for every card on your hand.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage and gain !B! Block for every card on your hand."
   },
   "${modID}:MageThief": {
     "NAME": "Mage Thief",
@@ -226,8 +226,8 @@
   },
   "${modID}:SpheresOfDuplication": {
     "NAME": "Spheres of Duplication",
-    "DESCRIPTION": "Choose a card from your discard pile, add copies of that card X times. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Choose a card from your discard pile, add copies of that card X+!M! times. NL Exhaust."
+    "DESCRIPTION": "Choose a card from your discard pile, add X copies of that card to your draw pile. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Choose a card from your discard pile, add X+!M! copies of that card to your draw pile. NL Exhaust."
   },
   "${modID}:SpiderQueen": {
     "NAME": "Spider Queen",
@@ -241,8 +241,8 @@
   },
   "${modID}:ThornMonk": {
     "NAME": "Thorn Monk",
-    "DESCRIPTION": "Gain !M! Thorns. NL Deal damage equal to the of your Thorns stack amount.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Thorns. NL Deal damage equal to the of your Thorns stack amount."
+    "DESCRIPTION": "Gain !M! Thorns. NL Deal damage equal to your Thorns stack amount.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Thorns. NL Deal damage equal to your Thorns stack amount."
   },
   "${modID}:TurquoiseGuard": {
     "NAME": "Turquoise Guard",
@@ -253,5 +253,10 @@
     "NAME": "V01-B01",
     "DESCRIPTION": "Gain !B! Block. NL When drawn gain !M! [E]. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Gain !B! Block. NL When drawn gain !M! [E]. NL Exhaust."
+  },
+  "${modID}:VampireLord": {
+    "NAME": "Vampire Lord",
+    "DESCRIPTION": "Deal !D! damage. NL Heal for the unblocked damage dealt.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Heal for the unblocked damage dealt."
   }
 }

@@ -29,6 +29,8 @@ public class BlackWidow extends BaseCard {
     public BlackWidow() {
         super(ID, info);
         setBlock(BLOCK, UPG_BLOCK);
+        setMagic(ASSASSIN_MARK);
+        setCustomVar("magicWeak", WEAK);
     }
 
     @Override
@@ -37,10 +39,10 @@ public class BlackWidow extends BaseCard {
             int marks = m.getPower("assassinRa:AssassinsMark").amount;
             addToBot(new GainBlockAction(p, p, block * marks));
             for(int i = 0; i < marks; i++){
-                addToBot(new ApplyPowerAction(m, p, new WeakPower(p, WEAK, false)));
+                addToBot(new ApplyPowerAction(m, p, new WeakPower(p, customVar("magicWeak"), false)));
             }
         }
-        addToBot(new ApplyPowerAction(m, p, new AssassinsMark(p, ASSASSIN_MARK)));
+        addToBot(new ApplyPowerAction(m, p, new AssassinsMark(p, magicNumber)));
     }
 
     @Override

@@ -22,13 +22,14 @@ public class ElderFairy extends BaseCard {
 
     public ElderFairy() {
         super(ID, info);
+        setMagic(ENERGY_GAIN);
         setExhaust(true, false);
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         if(m.getIntentBaseDmg() == -1){
-            addToBot(new GainEnergyAction(ENERGY_GAIN));
+            addToBot(new GainEnergyAction(magicNumber));
         }
     }
 

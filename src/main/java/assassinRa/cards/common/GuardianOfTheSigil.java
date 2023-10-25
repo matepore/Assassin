@@ -21,7 +21,7 @@ public class GuardianOfTheSigil extends BaseCard {
 
     public GuardianOfTheSigil() {
         super(ID, info);
-        exhaust = true;
+        setExhaust(true, false);
     }
 
     @Override

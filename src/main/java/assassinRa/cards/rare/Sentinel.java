@@ -25,6 +25,7 @@ public class Sentinel extends BaseCard {
         super(ID, info);
         setCostUpgrade(UPG_COST);
         setExhaust(true);
+        cardsToPreview = new RoboHound();
     }
 
     @Override

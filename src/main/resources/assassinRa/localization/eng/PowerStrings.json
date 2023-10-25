@@ -16,7 +16,7 @@
     "NAME": "Blue Bug's Bless",
     "DESCRIPTIONS": [
       "If you have less than half of your hp, heal 3 life.",
-      " Otherwise gain 3 *Block."
+      " Otherwise gain 3 Block."
     ]
   },
   "${modID}:PredatorFormPower": {
