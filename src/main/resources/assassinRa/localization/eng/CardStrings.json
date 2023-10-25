@@ -258,5 +258,20 @@
     "NAME": "Vampire Lord",
     "DESCRIPTION": "Deal !D! damage. NL Heal for the unblocked damage dealt.",
     "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Heal for the unblocked damage dealt."
+  },
+  "${modID}:WizardOfNature": {
+    "NAME": "Wizard of Nature",
+    "DESCRIPTION": "Double your Dexterity. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Double your Dexterity."
+  },
+  "${modID}:YoungMermaid": {
+    "NAME": "Young Mermaid",
+    "DESCRIPTION": "If the enemy has Weak, deal !D! damage. Otherwise gain !B! Block.",
+    "UPGRADE_DESCRIPTION": "If the enemy has Weak, deal !D! damage. Otherwise gain !B! Block."
+  },
+  "${modID}:AssassinMaster": {
+    "NAME": "Assassin Master",
+    "DESCRIPTION": "Deal !D! for every *Assassin's *Mark stack. NL Add !M! damage for every Weak stack.",
+    "UPGRADE_DESCRIPTION": "Deal !D! for every *Assassin's *Mark stack. NL Add !M! damage for every Weak stack."
   }
 }
