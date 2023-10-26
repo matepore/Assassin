@@ -273,5 +273,15 @@
     "NAME": "Assassin Master",
     "DESCRIPTION": "Deal !D! for every *Assassin's *Mark stack. NL Add !M! damage for every Weak stack.",
     "UPGRADE_DESCRIPTION": "Deal !D! for every *Assassin's *Mark stack. NL Add !M! damage for every Weak stack."
+  },
+  "${modID}:RecklessAttack": {
+    "NAME": "Reckless Attack",
+    "DESCRIPTION": "Deal !D! damage, multiply it by the current energy. NL Apply !M! Vulnerable to yourself. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage, multiply it by the current energy. NL Apply !M! Vulnerable to yourself. NL Exhaust."
+  },
+  "${modID}:SaltyWound": {
+    "NAME": "Salty Wound",
+    "DESCRIPTION": "Deal !D! damage, add +2 damage for every debuff type the enemy has.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage, add +2 damage for every debuff type the enemy has."
   }
 }
