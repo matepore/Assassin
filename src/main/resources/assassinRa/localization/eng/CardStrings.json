@@ -9,45 +9,45 @@
       "Blizzard is a good example for this."
     ]
   },
+  "${modID}:Strike_Orange": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "${modID}:Defend_Orange": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
   "${modID}:Hitman": {
     "NAME": "Hitman",
-    "DESCRIPTION": "Deal !D! damage !M! times.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage !M! times."
+    "DESCRIPTION": "Deal !D! damage !M! times."
   },
   "${modID}:BlackWidow": {
     "NAME": "Black Widow",
-    "DESCRIPTION": "Apply !M! *Assassin's *Mark. NL Gain !B! Block and apply !${modID}:magicWeak! Weak for every *Assassin's *Mark stack.",
-    "UPGRADE_DESCRIPTION": "Apply !M! *Assassin's *Mark. NL Gain !B! Block and apply !${modID}:magicWeak! Weak for every *Assassin's *Mark stack."
+    "DESCRIPTION": "Apply !M! *Assassin's *Mark. NL Gain !B! Block and apply !${modID}:magicWeak! Weak for every *Assassin's *Mark stack."
   },
   "${modID}:AngelFighter": {
     "NAME": "Angel Fighter",
-    "DESCRIPTION": "Deal !D! damage for every attack card on your hand.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage for every attack card on your hand."
+    "DESCRIPTION": "Deal !D! damage for every attack card on your hand."
   },
   "${modID}:AngelPriestess": {
     "NAME": "Angel Priestess",
-    "DESCRIPTION": "Heal !M! life for every skill card on your hand.",
-    "UPGRADE_DESCRIPTION": "Heal !M! life for every skill card on your hand."
+    "DESCRIPTION": "Heal !M! life for every skill card on your hand."
   },
   "${modID}:AntWarrior": {
     "NAME": "Ant Warrior",
-    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain !B! Block."
+    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block."
   },
   "${modID}:Beastman": {
     "NAME": "Beastman",
-    "DESCRIPTION": "Deal !D! damage for every attack card on your hand.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage for every attack card on your hand."
+    "DESCRIPTION": "Deal !D! damage for every attack card on your hand."
   },
   "${modID}:BlueBug": {
     "NAME": "Blue Bug",
-    "DESCRIPTION": "At the start of your turn if you have less than half of your hp, heal 3 life. NL Otherwise gain 3 Block.",
-    "UPGRADE_DESCRIPTION": "At the start of your turn if you have less than half of your hp, heal 3 life. NL Otherwise gain 3 Block."
+    "DESCRIPTION": "At the start of your turn if you have less than half of your hp, heal 3 life. NL Otherwise gain 3 Block."
   },
   "${modID}:CentaurFighter": {
     "NAME": "Centaur Fighter",
-    "DESCRIPTION": "Deal !D! damage. NL Deal !M! damage to the rest of enemies.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Deal !M! damage to the rest of enemies."
+    "DESCRIPTION": "Deal !D! damage. NL Deal !M! damage to the rest of enemies."
   },
   "${modID}:CommanderArmstrong": {
     "NAME": "Commander Armstrong",
@@ -56,43 +56,35 @@
   },
   "${modID}:CthoolAcolyte": {
     "NAME": "Cthool Acolyte",
-    "DESCRIPTION": "Exhaust a random card and gain !B! Block.",
-    "UPGRADE_DESCRIPTION": "Exhaust a random card and gain !B! Block."
+    "DESCRIPTION": "Exhaust a random card and gain !B! Block."
   },
   "${modID}:DarkLord": {
     "NAME": "Dark Lord",
-    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Apply !M! Poison.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies. NL Apply !M! Poison."
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Apply !M! Poison."
   },
   "${modID}:DemonBride": {
     "NAME": "Demon Bride",
-    "DESCRIPTION": "ALL enemies lose 1 Strength. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "ALL enemies lose 1 Strength. NL Exhaust."
+    "DESCRIPTION": "ALL enemies lose 1 Strength. NL Exhaust."
   },
   "${modID}:DemonGuard": {
     "NAME": "Demon Guard",
-    "DESCRIPTION": "Gain !B! Block for every skill card in the hand. NL Lose 3 life.",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block for every skill card in the hand. NL Lose 3 life."
+    "DESCRIPTION": "Gain !B! Block for every skill card in the hand. NL Lose 3 life."
   },
   "${modID}:DesertCat": {
     "NAME": "Desert Cat",
-    "DESCRIPTION": "Remove ALL Block from the enemy. NL Apply !M! Weak.",
-    "UPGRADE_DESCRIPTION": "Remove ALL Block from the enemy. NL Apply !M! Weak."
+    "DESCRIPTION": "Remove ALL Block from the enemy. NL Apply !M! Weak."
   },
   "${modID}:DesertFighter": {
     "NAME": "Desert Fighter",
-    "DESCRIPTION": "If the enemy has Block, deal !${modID}:magicDamage! damage. NL Otherwise deal !D! damage.",
-    "UPGRADE_DESCRIPTION": "If the enemy has Block, deal !${modID}:magicDamage! damage. NL Otherwise deal !D! damage."
+    "DESCRIPTION": "If the enemy has Block, deal !${modID}:magicDamage! damage. NL Otherwise deal !D! damage."
   },
   "${modID}:DesertPriestess": {
     "NAME": "Desert Priestess",
-    "DESCRIPTION": "Remove ALL Block from the enemy. NL Deal !D! damage.",
-    "UPGRADE_DESCRIPTION": "Remove ALL Block from the enemy. NL Deal !D! damage."
+    "DESCRIPTION": "Remove ALL Block from the enemy. NL Deal !D! damage."
   },
   "${modID}:DinoWarrior": {
     "NAME": "Dino Warrior",
-    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable to yourself.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable to yourself."
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable to yourself."
   },
   "${modID}:ElderFairy": {
     "NAME": "Elder Fairy",
@@ -106,18 +98,15 @@
   },
   "${modID}:FairyQueen": {
     "NAME": "Fairy Queen",
-    "DESCRIPTION": "Gain !M! Strength. NL Gain !${modID}:magicDex! Dexterity.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Strength. NL Gain !${modID}:magicDex! Dexterity."
+    "DESCRIPTION": "Gain !M! Strength. NL Gain !${modID}:magicDex! Dexterity."
   },
   "${modID}:FallenAngel": {
     "NAME": "Fallen Angel",
-    "DESCRIPTION": "Deal !D! damage. NL Lose !M! life.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Lose !M! life."
+    "DESCRIPTION": "Deal !D! damage. NL Lose !M! life."
   },
   "${modID}:Gorillatron": {
     "NAME": "Gorillatron",
-    "DESCRIPTION": "If the enemy intends to attack, gain !B! Block. NL Otherwise deal !D! damage.",
-    "UPGRADE_DESCRIPTION": "If the enemy intends to attack, gain !B! Block. NL Otherwise deal !D! damage."
+    "DESCRIPTION": "If the enemy intends to attack, gain !B! Block. NL Otherwise deal !D! damage."
   },
   "${modID}:GuardianOfTheSigil": {
     "NAME": "Guardian of the Sigil",
@@ -131,28 +120,23 @@
   },
   "${modID}:IronArm": {
     "NAME": "Iron Arm",
-    "DESCRIPTION": "If this is the only Attack card in your hand, deal !M! damage. Otherwise deal !D! damage.",
-    "UPGRADE_DESCRIPTION": "If this is the only Attack card in your hand, deal !M! damage. Otherwise deal !D! damage."
+    "DESCRIPTION": "If this is the only Attack card in your hand, deal !M! damage. Otherwise deal !D! damage."
   },
   "${modID}:LadyOfTheDarkSouls": {
     "NAME": "Lady of the Dark Souls",
-    "DESCRIPTION": "Deal !D! damage to all enemies for every card played this turn.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage to all enemies for every card played this turn."
+    "DESCRIPTION": "Deal !D! damage to all enemies for every card played this turn."
   },
   "${modID}:LionFighter": {
     "NAME": "Lion Fighter",
-    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain !B! Block."
+    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block."
   },
   "${modID}:LivingArmor": {
     "NAME": "Living Armor",
-    "DESCRIPTION": "Gain !B! Block. NL Gain !M! Thorns.",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Gain !M! Thorns."
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! Thorns."
   },
   "${modID}:Lullyp": {
     "NAME": "Lullyp",
-    "DESCRIPTION": "Deal !D! damage and gain !B! Block for every card on your hand.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage and gain !B! Block for every card on your hand."
+    "DESCRIPTION": "Deal !D! damage and gain !B! Block for every card on your hand."
   },
   "${modID}:MageThief": {
     "NAME": "Mage Thief",
@@ -166,58 +150,47 @@
   },
   "${modID}:PoisonCat": {
     "NAME": "Poison Cat",
-    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Poison.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Apply !M! Poison."
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Poison."
   },
   "${modID}:PoisonDino": {
     "NAME": "Poison Dino",
-    "DESCRIPTION": "Apply !M! Poison. NL Deal damage equal to the amount of Poison the enemy has. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Apply !M! Poison. NL Deal damage equal to the amount of Poison the enemy has. NL Exhaust."
+    "DESCRIPTION": "Apply !M! Poison. NL Deal damage equal to the amount of Poison the enemy has. NL Exhaust."
   },
   "${modID}:PoisonImp": {
     "NAME": "Poison Imp",
-    "DESCRIPTION": "Deal !D! damage X times. NL Apply !M! Poison X times.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage X times. NL Apply !M! Poison X times."
+    "DESCRIPTION": "Deal !D! damage X times. NL Apply !M! Poison X times."
   },
   "${modID}:PredatorForm": {
     "NAME": "Predator Form",
-    "DESCRIPTION": "Gain !M! Thorns. NL Every time you deal damage apply 3 Poison.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Thorns. NL Every time you deal damage apply 3 Poison."
+    "DESCRIPTION": "Gain !M! Thorns. NL Every time you deal damage apply 3 Poison."
   },
   "${modID}:PriestHealer": {
     "NAME": "Priest Healer",
-    "DESCRIPTION": "Deal !D! damage. NL If the enemy dies, heal !M! life.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL If the enemy dies, heal !M! life."
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy dies, heal !M! life."
   },
   "${modID}:RoboHound": {
     "NAME": "Robo Hound",
-    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain !B! Block. NL Exhaust."
+    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block. NL Exhaust."
   },
   "${modID}:Robowitch": {
     "NAME": "Robowitch",
-    "DESCRIPTION": "At the end of your turn, gain !M! Block.",
-    "UPGRADE_DESCRIPTION": "At the end of your turn, gain !M! Block."
+    "DESCRIPTION": "At the end of your turn, gain !M! Block."
   },
   "${modID}:SapphireGuard": {
     "NAME": "Sapphire Guard",
-    "DESCRIPTION": "Gain !B! Block. NL Gain !M! [E].",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Gain !M! [E]."
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! [E]."
   },
   "${modID}:SeekerOfTheLight": {
     "NAME": "Seeker of the Light",
-    "DESCRIPTION": "Remove all your debuffs. NL Heal !M! Life for every stack of debuffs removed. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Remove all your debuffs. NL Heal !M! Life for every stack of debuffs removed. NL Exhaust."
+    "DESCRIPTION": "Remove all your debuffs. NL Heal !M! Life for every stack of debuffs removed. NL Exhaust."
   },
   "${modID}:Sentinel": {
     "NAME": "Sentinel",
-    "DESCRIPTION": "Add a *Robo *Hound to your discard pile for every card on your exhaust pile. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Add a *Robo *Hound to your discard pile for every card on your exhaust pile. NL Exhaust."
+    "DESCRIPTION": "Add a *Robo *Hound to your discard pile for every card on your exhaust pile. NL Exhaust."
   },
   "${modID}:SigilEssence": {
     "NAME": "Sigil Essence",
-    "DESCRIPTION": "Ethereal. NL Gain !M! Intangible. NL Gain !${modID}:magicDex! Dexterity.",
-    "UPGRADE_DESCRIPTION": "Ethereal. NL Gain !M! Intangible. NL Gain !${modID}:magicDex! Dexterity."
+    "DESCRIPTION": "Ethereal. NL Gain !M! Intangible. NL Gain !${modID}:magicDex! Dexterity."
   },
   "${modID}:SpaceCommander": {
     "NAME": "Space Commander",
@@ -236,28 +209,23 @@
   },
   "${modID}:Succubus": {
     "NAME": "Succubus",
-    "DESCRIPTION": "Apply !M! Poison to all enemies. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Apply !M! Poison to all enemies. NL Exhaust."
+    "DESCRIPTION": "Apply !M! Poison to all enemies. NL Exhaust."
   },
   "${modID}:ThornMonk": {
     "NAME": "Thorn Monk",
-    "DESCRIPTION": "Gain !M! Thorns. NL Deal damage equal to your Thorns stack amount.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Thorns. NL Deal damage equal to your Thorns stack amount."
+    "DESCRIPTION": "Gain !M! Thorns. NL Deal damage equal to your Thorns stack amount."
   },
   "${modID}:TurquoiseGuard": {
     "NAME": "Turquoise Guard",
-    "DESCRIPTION": "Gain !B! Block. NL If the enemy has Poison, deal !D! damage.",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL If the enemy has Poison, deal !D! damage."
+    "DESCRIPTION": "Gain !B! Block. NL If the enemy has Poison, deal !D! damage."
   },
   "${modID}:V01B01": {
     "NAME": "V01-B01",
-    "DESCRIPTION": "Gain !B! Block. NL When drawn gain !M! [E]. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL When drawn gain !M! [E]. NL Exhaust."
+    "DESCRIPTION": "Gain !B! Block. NL When drawn gain !M! [E]. NL Exhaust."
   },
   "${modID}:VampireLord": {
     "NAME": "Vampire Lord",
-    "DESCRIPTION": "Deal !D! damage. NL Heal for the unblocked damage dealt.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Heal for the unblocked damage dealt."
+    "DESCRIPTION": "Deal !D! damage. NL Heal for the unblocked damage dealt."
   },
   "${modID}:WizardOfNature": {
     "NAME": "Wizard of Nature",
@@ -266,22 +234,35 @@
   },
   "${modID}:YoungMermaid": {
     "NAME": "Young Mermaid",
-    "DESCRIPTION": "If the enemy has Weak, deal !D! damage. Otherwise gain !B! Block.",
-    "UPGRADE_DESCRIPTION": "If the enemy has Weak, deal !D! damage. Otherwise gain !B! Block."
+    "DESCRIPTION": "If the enemy has Weak, deal !D! damage. Otherwise gain !B! Block."
   },
   "${modID}:AssassinMaster": {
     "NAME": "Assassin Master",
-    "DESCRIPTION": "Deal !D! for every *Assassin's *Mark stack. NL Add !M! damage for every Weak stack.",
-    "UPGRADE_DESCRIPTION": "Deal !D! for every *Assassin's *Mark stack. NL Add !M! damage for every Weak stack."
+    "DESCRIPTION": "Deal !D! for every *Assassin's *Mark stack. NL Add !M! damage for every Weak stack."
   },
   "${modID}:RecklessAttack": {
     "NAME": "Reckless Attack",
-    "DESCRIPTION": "Deal !D! damage, multiply it by the current energy. NL Apply !M! Vulnerable to yourself. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage, multiply it by the current energy. NL Apply !M! Vulnerable to yourself. NL Exhaust."
+    "DESCRIPTION": "Deal !D! damage, multiply it by the current energy. NL Apply !M! Vulnerable to yourself. NL Exhaust."
   },
   "${modID}:SaltyWound": {
     "NAME": "Salty Wound",
-    "DESCRIPTION": "Deal !D! damage, add +2 damage for every debuff type the enemy has.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage, add +2 damage for every debuff type the enemy has."
+    "DESCRIPTION": "Deal !D! damage, add +2 damage for every debuff type the enemy has."
+  },
+  "${modID}:ExperiencedGuard": {
+    "NAME": "Experienced Guard",
+    "DESCRIPTION": "If you have Vulnerable, gain !M! Block. Otherwise gain !B! Block."
+  },
+  "${modID}:MimicDefense": {
+    "NAME": "Mimic Defense",
+    "DESCRIPTION": "Gain Block equal to the enemy's defense. NL Exhaust."
+  },
+  "${modID}:Protected": {
+    "NAME": "Protected",
+    "DESCRIPTION": "Gain !B! Block. NL Draw !M! card.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Draw !M! cards."
+  },
+  "${modID}:TheFortress": {
+    "NAME": "The Fortress",
+    "DESCRIPTION": "Gain !B! Block. NL Apply !M! Weak to all enemies."
   }
 }

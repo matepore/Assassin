@@ -1,7 +1,9 @@
 package assassinRa.character;
 
 import assassinRa.cards.basic.BlackWidow;
+import assassinRa.cards.basic.Defend_Orange;
 import assassinRa.cards.basic.Hitman;
+import assassinRa.cards.basic.Strike_Orange;
 import assassinRa.relics.AssassinBaseRelic;
 import basemod.abstracts.CustomEnergyOrb;
 import basemod.abstracts.CustomPlayer;
@@ -82,14 +84,14 @@ public class AssassinCharacter extends CustomPlayer {
         ArrayList<String> retVal = new ArrayList<>();
         //List of IDs of cards for your starting deck.
         //If you want multiple of the same card, you have to add it multiple times.
-        retVal.add(Strike_Red.ID);
-        retVal.add(Strike_Red.ID);
-        retVal.add(Strike_Red.ID);
-        retVal.add(Strike_Red.ID);
-        retVal.add(Defend_Blue.ID);
-        retVal.add(Defend_Blue.ID);
-        retVal.add(Defend_Blue.ID);
-        retVal.add(Defend_Blue.ID);
+        retVal.add(Strike_Orange.ID);
+        retVal.add(Strike_Orange.ID);
+        retVal.add(Strike_Orange.ID);
+        retVal.add(Strike_Orange.ID);
+        retVal.add(Defend_Orange.ID);
+        retVal.add(Defend_Orange.ID);
+        retVal.add(Defend_Orange.ID);
+        retVal.add(Defend_Orange.ID);
         retVal.add(Hitman.ID);
         retVal.add(BlackWidow.ID);
 
