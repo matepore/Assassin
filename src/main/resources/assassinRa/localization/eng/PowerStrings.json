@@ -9,7 +9,7 @@
     "NAME": "Assassin's Mark",
     "DESCRIPTIONS": [
       "When the enemy has 3 marks",
-      " deal a second attack plus 10% of the enemy's hp."
+      " add 10% of the enemy's max hp to the damage."
     ]
   },
   "${modID}:BlueBugPower": {

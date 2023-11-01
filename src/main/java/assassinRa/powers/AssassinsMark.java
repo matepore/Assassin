@@ -34,9 +34,8 @@ public class AssassinsMark extends BasePower implements CloneablePowerInterface 
         if(super.owner.hasPower("assassinRa:AssassinsMark") && super.owner.getPower("assassinRa:AssassinsMark").amount >= MAX_STACK){
             flash();
             addToTop(new RemoveSpecificPowerAction(super.owner, owner, this));
-            DamageInfo secondHit = new DamageInfo(info.owner, damageAmount, DamageInfo.DamageType.NORMAL);
             int additionalDamage = (10 * super.owner.maxHealth)/100;
-            return super.onAttacked(info, damageAmount) + super.onAttacked(secondHit, damageAmount + additionalDamage);
+            return super.onAttacked(info, damageAmount + additionalDamage);
         }
         else{
             return super.onAttacked(info, damageAmount);
